@@ -98,7 +98,18 @@ input[type=password]:focus {
     outline: none !important;
    border-color: red;
   }
-
+  input[type=text]:focus {
+    outline: none !important;
+   border-color: rgba(0, 0, 255, .2);
+  }
+  input[type=email]:focus {
+    outline: none !important;
+   border-color: lightblue;
+  }
+  input[type=number]:focus {
+    outline: none !important;
+   border-color: lightblue;
+  }
 .lead-heading{
     margin: 1rem 6rem;
 }
