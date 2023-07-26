@@ -1,0 +1,65 @@
+
+.grid{
+    display: flex;
+    
+}
+.container .sidebar{
+    position: relative;
+    width: 400px;
+    height: 100vh;
+    background-image: url("../img/gashity.jpg");
+   background-repeat: no-repeat;
+}
+.container{
+    position: relative;
+    background-color: white;
+}
+
+.flex-row{
+    display: flex;
+    
+}
+.logo{
+    margin: 1rem 2rem;
+    width: 200px;
+    height: 100px;
+}
+.heading{
+    margin: 3rem 2rem;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo-container{
+position: absolute;
+width: 100%;
+height: 200px;
+top: 200px;
+opacity: 0.5;
+background-color:#333;
+}
+
+/**************The Form**************************/
+.main-form{
+    background-color: whitesmoke;
+}
+.form-header{
+text-align: center;
+margin:6rem 2rem
+}
+.header-internal{
+ width: 60%;
+
+}
+.header-internal p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-justify: inter-word;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    margin-left: 0;
+}
+/***************The Form*************************/
