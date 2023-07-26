@@ -6,13 +6,17 @@
 .container .sidebar{
     position: relative;
     width: 400px;
-    height: 100vh;
+    height: 100%;
     background-image: url("../img/gashity.jpg");
    background-repeat: no-repeat;
 }
 .container{
     position: relative;
     background-color: white;
+    width: 100wh;
+    height: 100vh;
+
+    
 }
 
 .flex-row{
@@ -59,6 +63,62 @@ margin:6rem 2rem
     text-justify: inter-word;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+ .card-container{
+    
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-bottom: 2px solid black ;
+    border-bottom: 3px solid rgba(0, 0, 0, .2);
 
+}
+.form-container{
+    display: grid;
+    width: 60%;
+    margin: 0 5rem;
+    grid-template-columns: 1fr 1fr;
+}
+.form-control{
+ display: flex;
+ flex-direction: column;
+ margin: 1rem 1rem;
+
+}
+.form-control label{
+    font-size: 1rem ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+   
+}
+.form-control input{
+    border: 1px solid #E5E7EB;
+    padding: 0.5rem;
+}
+ input[type=password]:focus {
+    border: 1px solid red;
+  }
+
+.lead-heading{
+    margin: 1rem 6rem;
+}
+
+.btn{
+    background-color: #596D48;
+    margin: 1rem 5rem;
+    padding: .5rem 0.5rem;
+    width: 200px;
+    border: none;
+    border-radius: 0.3rem;
+}
+.footer-link{
+    display: flex;
+    align-items: center;
+    margin: 0 5rem;
+}
+.footer-link a{
+    color: #596D48;
+}
+/* .form-control input{
+    width: 50%;
+} */
 
 /***************The Form*************************/
